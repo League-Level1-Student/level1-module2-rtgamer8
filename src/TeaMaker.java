@@ -6,7 +6,9 @@
 public class TeaMaker {
 
 	/* Figure out how to make a cup of tea using the classes below */
-
+	/*
+	 * flavor-mint-teabag :s kettle water-hot water cup-teabag
+	 */
 }
 
 class TeaBag {
@@ -64,5 +66,3 @@ class Cup {
 	}
 
 }
-
-
