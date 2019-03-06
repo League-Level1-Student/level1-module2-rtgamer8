@@ -12,7 +12,7 @@ public class TeaMaker {
 }
 
 class TeaBag {
-
+ 
 	public final static String GREEN = "Green";
 	public final static String MINT = "Mint";
 	public final static String CHAMOMILE = "Chamomile";
@@ -50,7 +50,6 @@ class Kettle {
 			return this.isHot;
 		}
 	}
-
 }
 
 class Cup {

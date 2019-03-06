@@ -36,6 +36,7 @@ public class MinionTest {
 
 	@Test
 	public void testConstructor() {
+		
 		Minion stuart = new Minion("Stuart", 1, "yellow", "");
 		assertEquals("Stuart", stuart.getName());
 		assertEquals(1, stuart.getEyes());
