@@ -7,6 +7,8 @@ public class Minion {
 	private String master;
 
 	Minion(String name, int eyes, String color, String master) {
-		this.name = name;
+		
 	}
+
+	String name()
 }
