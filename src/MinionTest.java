@@ -1,13 +1,12 @@
+
 /*
  *    Copyright (c) The League of Amazing Programmers 2013-2018
  *    Level 1
  */
 
-
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
-
 
 /*
 
@@ -36,13 +35,16 @@ public class MinionTest {
 
 	@Test
 	public void testConstructor() {
-		
+
 		Minion stuart = new Minion("Stuart", 1, "yellow", "");
 		assertEquals("Stuart", stuart.getName());
 		assertEquals(1, stuart.getEyes());
 		assertEquals("yellow", stuart.getColor());
 
-		Minion dave = new Minion("Dave", 2, "yellow", "");
+		Minion dave = new Minion("Dave", 2, "yellow", ""); /*
+															 * private String name; private int eyes; . private String
+															 * color; private String master;
+															 */
 		assertEquals("Dave", dave.getName());
 		assertEquals(2, dave.getEyes());
 		assertEquals("yellow", dave.getColor());
@@ -60,6 +62,3 @@ public class MinionTest {
 	}
 
 }
-
-
-
